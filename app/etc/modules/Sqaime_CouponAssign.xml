@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sqaime_CouponAssign>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Sqaime_CouponAssign>
+    </modules>
+</config>

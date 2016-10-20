@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sqaime_CouponAssign>
+            <version>0.1.1</version>
+        </Sqaime_CouponAssign>
+    </modules>
+    <global>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <promo_quote_edit_tab_main>Sqaime_CouponAssign_Block_Adminhtml_Edit_Tab_Main</promo_quote_edit_tab_main>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+		<resources>
+		    <couponassign_setup>
+		        <setup>
+		            <module>Sqaime_CouponAssign</module>
+		        </setup>
+		        <connection>
+		            <use>core_setup</use>
+		        </connection>
+		    </couponassign_setup>
+		</resources>
+    </global>
+</config>
